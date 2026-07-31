@@ -1,6 +1,4 @@
-import { forwardRef } from 'react';
-
-export default function Input({ label, textarea, ...props }, ref) {
+export default function Input({ label, textarea, ref, ...props }) {
     const classes =
         'w-full p-1 border-b-2 rounded-sm border-stone-300 bg-stone-200 text-stone-600 focus:outline-none focus:border-stone-600';
 
